@@ -30,7 +30,7 @@ public class BasicDemoTest {
   @Test
   void testBasicSalaryWithValidSalary() {
     basicDemo = new BasicDemo();
-    String expectedDemo = "Prueba";
+    String expectedDemo = "PruebaProduct";
     basicDemo.setDemoString(expectedDemo);
     assertEquals(expectedDemo, basicDemo.getDemoString());
 

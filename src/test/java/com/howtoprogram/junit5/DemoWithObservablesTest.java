@@ -11,7 +11,7 @@ public class DemoWithObservablesTest {
     @Test
     void verifyListObs(){
         DemoWithObservables demoWithObservables = new DemoWithObservables();
-        
+
         List<Integer> numberList = new ArrayList<>();
 
         demoWithObservables.getListOfObject().subscribe(x -> {

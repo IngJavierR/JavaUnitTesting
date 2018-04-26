@@ -17,6 +17,7 @@
 		<junit.vintage.version>${junit.version}.0</junit.vintage.version>
 		<junit.jupiter.version>5.0.0</junit.jupiter.version>
 		<junit.platform.version>1.0.0</junit.platform.version>
+		<io.reactivex.version>2.1.12</io.reactivex.version>
 	</properties>
 
 	<build>
@@ -70,6 +71,11 @@
 			<artifactId>junit-vintage-engine</artifactId>
 			<version>${junit.vintage.version}</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.reactivex.rxjava2</groupId>
+			<artifactId>rxjava</artifactId>
+			<version>${io.reactivex.version}</version>
 		</dependency>
 	</dependencies>
 
